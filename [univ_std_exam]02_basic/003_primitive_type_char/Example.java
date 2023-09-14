@@ -14,13 +14,19 @@ public class Example {
         System.out.println("(기본) -> " + one_of_alphabet);
 
         // 10진수 정수형으로 저장
-        
+        one_of_alphabet = 65; // 문자형으로 저장
+        System.out.println("1. '65' 로 저장 --------");
+        System.out.println("(기본) -> " + one_of_alphabet);
 
         // 2진수 정수형으로 저장
-        
-
+        one_of_alphabet = 0b1000001; // b = binary
+        System.out.println("1. '0b1000001' 로 저장 --------");
+        System.out.println("(기본) -> " + one_of_alphabet);
         // 16진수 정수형으로 저장
-        
+
+        one_of_alphabet = 0x0041;
+        System.out.println("1. '0x0041' 로 저장 --------");
+        System.out.println("(기본) -> " + one_of_alphabet);
         return;
     }
 }

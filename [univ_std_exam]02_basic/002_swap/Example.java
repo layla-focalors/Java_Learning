@@ -10,8 +10,12 @@ public class Example {
         int b = 200;
         int tmp;
 
+        // 값 붙여서 출력하기
+        System.out.print("swap 전 a, b의 값 = ");
+        System.out.println(a + ", " + b);
+
         // 두 변수의 값을 교환하기 전 값을 출력
-        System.out.println("a = " + a + "\nb = " + b);
+        // System.out.println("a = " + a + "\nb = " + b); //
         // 두 변수의 값을 교환
         tmp = a; a = b; b = tmp;
         System.out.println("-------------");
