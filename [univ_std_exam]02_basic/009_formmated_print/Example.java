@@ -7,12 +7,12 @@ public class Example {
         // ------------------------------------------------------------------
 
         // 출력할 변수 선언 및 초기화
-        String name = "김자바";
+        String name = "서준혁";
         int age = 20;
         double tall = 190.1234;
 
         // printf를 이용한 출력
-        System.out.printf();
+        System.out.printf("안녕하세요 저는 %s 이고, 나이는 %d이고, 키는 %f 입니다.\n", name, age, tall);
 
         byte b = 1;
         short s = 2;
@@ -32,9 +32,9 @@ public class Example {
         System.out.printf("c = %c / %d \n", c, (int)c);
 
         // 서식문자 사이에 정수 값을 넣음으로써 칸 확보 및 0으로 채움
-        System.out.printf("number = [] \n", number);
-        System.out.printf("number = [] \n", number);
-        System.out.printf("number = [] \n", number);
+        System.out.printf("number = [%d] \n", number);
+        System.out.printf("number = [%-5d] \n", number);
+        System.out.printf("number = [%05d] \n", number);
 
         // 다양한 진법의 수 출력
         System.out.printf("big = %d \n",big);
