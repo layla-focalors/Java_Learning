@@ -12,15 +12,16 @@ public class Example {
         System.out.println("내가 좋아하는 정수는 " + 7);
         System.out.println("내가 좋아하는 float 형 소수점은 " + 3.14f);
         System.out.println("내가 좋아하는 double 형 소수점은 " + 3.14);
-        
+        // 
         // 정수의 덧셈
-        
+        System.out.printf("내가 좋아하는 알파벳 : %s\n", 'N');
+        System.out.println(7 + 7);
 
         // 정수의 덧셈 및 문자열 결합 연산
-
+        System.out.println(2 + 2 + "안녕하세요");
 
         // 문자 연산 -> 공백에 대한 코드 값이 더해진 것.
-
+        System.out.println(7 + 7 + ' ');
 
         return;
     }
