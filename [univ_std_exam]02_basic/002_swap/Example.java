@@ -11,11 +11,12 @@ public class Example {
         int tmp;
 
         // 두 변수의 값을 교환하기 전 값을 출력
-
+        System.out.println("a = " + a + "\nb = " + b);
         // 두 변수의 값을 교환
-
+        tmp = a; a = b; b = tmp;
+        System.out.println("-------------");
         // 교환된 두 변수의 값을 확인.
-
+        System.out.println("a = " + a + "\nb = " + b);        
         return;
     }
 }
