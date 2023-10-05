@@ -34,7 +34,7 @@ public class instance {
         // 클래스 변수는 모든 동일 객체들이 공유
         System.out.println("red_t > " + red_t.width + "/" + red_t.height);
         System.out.println("blue_t > " + blue_t.width + "/" + blue_t.height);
-
+        return;
     }
 }
 class TV_A134{
