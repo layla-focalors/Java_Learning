@@ -6,4 +6,7 @@ public class ts2 {
      * TV t; - TV 클래스 타입의 참조변수 T 선언
      * T = new TV(); - TV 인스턴스를 설정한 후 TV인스턴스의 주소를 저장
      */
+    public static void main(String[] args){
+        
+    }
 }
