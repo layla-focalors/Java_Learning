@@ -11,4 +11,8 @@ public class ts1 {
         int c = a + b;
         return c;
     }
+    public static int sum(int a, int b){
+        int x = a + b;
+        return x;
+    }
 }
